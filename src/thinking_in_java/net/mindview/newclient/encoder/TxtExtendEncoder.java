@@ -11,9 +11,7 @@
  * disclose such Confidential Information and shall use it only in
  * accordance with the terms of the license.
  */
-package com.cmcc.spam.simu.newclient.encoder;
 
-import com.cmcc.spam.simu.newclient.po.TxtExtendPo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
