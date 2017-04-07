@@ -1,0 +1,24 @@
+1: package thinking_in_java.net.mindview.io;
+2: 
+3: 
+4: //: io/BasicFileOutput.java
+5: import java.io.*;
+6: 
+7: public class BasicFileOutput {
+8:   static String file = "BasicFileOutput.out";
+9:   public static void main(String[] args)
+10:   throws IOException {
+11:     BufferedReader in = new BufferedReader(
+12:       new StringReader(
+13:         BufferedInputFile.read("src\\thinking_in_java\\net\\mindview\\io\\BasicFileOutput.java")));
+14:     PrintWriter out = new PrintWriter(
+15:       new BufferedWriter(new FileWriter(file)));
+16:     int lineCount = 1;
+17:     String s;
+18:     while((s = in.readLine()) != null )
+19:       out.println(lineCount++ + ": " + s);
+20:     out.close();
+21:     // Show the stored file:
+22:     System.out.println(BufferedInputFile.read(file));
+23:   }
+24: } /* (Execute to see output) *///:~
