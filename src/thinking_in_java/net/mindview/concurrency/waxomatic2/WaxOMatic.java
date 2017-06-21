@@ -1,4 +1,4 @@
-package thinking_in_java.net.mindview.concurrency;
+package thinking_in_java.net.mindview.concurrency.waxomatic2;
 
 //: concurrency/waxomatic/WaxOMatic.java
 // Basic task cooperation.
