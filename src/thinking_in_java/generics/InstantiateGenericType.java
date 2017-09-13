@@ -15,9 +15,6 @@ class ClassAsFactory<T> {
     }
 }
 
-class Employee {
-}
-
 public class InstantiateGenericType {
     public static void main(String[] args) {
         ClassAsFactory<Employee> fe = new ClassAsFactory<Employee>(Employee.class);

@@ -12,7 +12,7 @@ class Manipulator<T> {
 
     // Error: cannot find symbol: method f():
     public void manipulate() {
-        ((HasF) obj).f();
+        //        obj.f();
     }
 }
 
